@@ -1,5 +1,7 @@
 name: Tod Hilton, Technical Writer
 markdown: kramdown
 collections:
+  - testBlog
+collections:
   testBlog:
     output: true
