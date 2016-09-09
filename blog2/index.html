@@ -1,11 +1,14 @@
 ---
 layout: default
 title: Tod Hilton's Blog
+category: blog2
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    {% if post.categories contains 'blog2' %}
+	      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    {% endif %}
 	  {% endfor %}
 	</ul>
