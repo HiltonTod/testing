@@ -16,7 +16,7 @@ layout: nil
     {% if post.categories contains 'blog1' %}
     <entry>
         <title>{{ post.title }}</title>
-        <link href="http://garron.me{{ post.url }}"/>
+        <link href="http://examplesite.com{{ post.url }}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>http://garron.me{{ post.url }}</id>
         <summary type="html">{{ post.content | xml_escape }}</summary>
