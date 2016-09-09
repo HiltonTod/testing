@@ -9,3 +9,9 @@ title: Tod Hilton's Blog
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+
+	<h2>Site.Pages</h2>
+	  {% for page in site.pages %}
+	    <li><span>{{ page.date | date_to_string }}</span> » <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
+	  {% endfor %}
+
