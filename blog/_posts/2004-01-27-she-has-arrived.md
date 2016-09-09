@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog1
 title: "She has arrived"
 date: 2004-01-27
 ---
