@@ -12,3 +12,11 @@ The following directories and their contents are Copyright Tod Hilton. You may n
     images/
 
 All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please. If you do use them, a link back to http://github.com/tod-hilton would be appreciated, but is not required.
+
+# How To's #
+
+A few things I found useful in getting started with GitHub Pages.
+
+- [Creating and Hosting a Personal Site on GitHub](http://jmcglone.com/guides/github-pages/)
+- [Create a Multi Blog Site with Jekyll](https://www.garron.me/en/blog/multi-blog-site-jekyll.html)
+- [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/)
